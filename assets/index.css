@@ -1,0 +1,103 @@
+body {
+  color: rgb(207, 87, 60);
+  background-color: white;
+
+}
+
+header {
+  height: 10%;
+  font-size: 85px;
+  text-align: center;
+  font-family: 'Jockey One', sans-serif;
+}
+
+.hey {
+  display: inline-block;
+}
+
+#beNeath {
+  margin-right: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(71, 163, 218);
+}
+
+#arrow {
+  color: rgb(71, 163, 218);
+}
+
+.left {
+  float: left;
+  margin-left: 1.5em;
+}
+
+.right {
+  float: right;
+  margin-right: 1.5em;
+}
+
+.iconGrid {
+  margin-top: 10em;
+  box-sizing: border-box;
+  align-content: center;
+  margin-left: 10%;
+  font-family: 'Six Caps', sans-serif;
+}
+
+
+#boxCons {
+  padding-top: .5em;
+  font-size: 80;
+}
+
+.fa {
+  /*padding-top: 1.5em;*/
+}
+
+.shiftBox {
+  height: 1em;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20%;
+  border: 5px solid rgb(207, 87, 60);
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+
+.column {
+
+  border: 1px solid grey;
+  font-size: 90px;
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  margin: 0;
+}
+
+.columnSwitch {
+
+color: white;
+background-color: rgb(207, 87, 60);
+  /*i {
+    padding-top: 1em;
+  }*/
+}
+
+.row {
+  display: inline-block;
+  margin: -1px;
+}
+
+.column-1 {
+  /*display: inline-block;*/
+}
+
+.column-2 {
+  /*display:inline-block;*/
+}
+
+.column-3 {
+
+}

@@ -1,0 +1,15 @@
+{
+  "name": "responsive-icon-grid",
+  "homepage": "https://github.com/dpip/TIY-Assignments",
+  "authors": [
+    "Daniel Pipkin <dpip.nc@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
