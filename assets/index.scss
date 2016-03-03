@@ -1,0 +1,111 @@
+// IMPORT FILES
+@import "grid";
+@import "bits";
+// SET BREAKPOINTS IN GRID FILE
+// STYLE VARIABLES IN BITS FILE
+
+body {
+  color: $citrus;
+  background-color: white;
+}
+header {
+  height: 10%;
+  font-size: 85px;
+  text-align: center;
+  font-family: 'Jockey One', sans-serif;
+  position: relative;
+      .skull {
+        display:inline-block;
+      }
+      #arrow {
+        color: $berry;
+      }
+      #beNeath {
+        // position: absolute;
+        height: 20px;
+        width: 200px;
+        text-align: center;
+        font-size: 15px;
+        color: $berry;
+        border: 4px solid $berry;
+        border-radius: 2em;
+        margin-left: 20%;
+        margin-top: 3em;
+      }
+      .hey {
+        display: inline-block;
+      }
+      .left {
+        float: left;
+        margin-left: 1em;
+        // margin-top: 1em;
+        position: static;
+      }
+      .right {
+        float: right;
+        margin-right: 1em;
+        // margin-top: 1em;
+        position: static;
+      }
+}
+
+
+.iconGrid {
+  margin-top: 10em;
+  box-sizing: border-box;
+  align-content: center;
+  margin-left: 10%;
+  font-family: 'Six Caps', sans-serif;
+    .row {
+      display: inline-block;
+      margin: -1px;
+    }
+}
+
+
+#boxCons {
+  margin-top: 1em;
+  font-size: 80;
+  margin-bottom: 0;
+}
+
+.column {
+
+  border: 1px solid grey;
+  font-size: 90px;
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  background-color: white;
+}
+
+.shiftBox {
+  height: 1.5em;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20%;
+  border: 5px solid rgb(207, 87, 60);
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+
+.bottomText {
+  font-size: 20px;
+  color: white;
+}
+
+.columnSwitch {
+  color: white;
+  background-color: rgb(207, 87, 60);
+      .fa {
+
+      }
+      .shiftBox {
+        font-size: 90px;
+        border: 5px solid white;
+        border-right: transparent;
+        border-left: transparent;
+        border-top: transparent;
+      }
+}

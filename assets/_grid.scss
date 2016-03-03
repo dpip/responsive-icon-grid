@@ -1,0 +1,32 @@
+$desktop: 1400px;
+$laptop: 1186px;
+$tablet: 920px;
+$phone: 790px;
+
+@media screen and (max-width: $desktop) {
+  header {
+    width: 1300px;
+    display: inline-block;
+    margin-bottom: -1.5em;
+  }
+}
+@media screen and (max-width: $laptop) {
+  header {
+    width: 920px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: $tablet) {
+  header {
+    width: 350px;
+    display: inline-block;
+    margin-left: 3em;
+  }
+}
+@media screen and (max-width: $phone) {
+  header {
+    width: 350px;
+    display: inline-block;
+    margin-left: .5em;
+  }
+}
